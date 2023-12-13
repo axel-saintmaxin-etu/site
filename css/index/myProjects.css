@@ -1,0 +1,79 @@
+#myProjects {
+    background-color: #36494E; /* #1C2942 #36494E */
+    height: calc(50vh + 36vw);
+
+    color : #7EA0B7;
+    text-align: center;
+}
+
+#myProjects p {
+    font-size: calc(1.2vh + 1.2vw);
+}
+
+#myProjects img {
+    width: calc(10vh + 10vw);
+    height: calc(10vh + 10vw);
+}
+
+#myProjects table {
+    margin-left: calc(-11vh + 36vw);
+    margin-top: 3vh;
+    border: 1px solid white;
+}
+
+#myProjects table tr td *{
+    margin-top: calc(1vh + 1vw);
+    margin-bottom: calc(1vh + 1vw);
+    margin-left: calc(0.5vh + 0.5vw);
+    margin-right: calc(0.5vh + 0.5vw);
+}
+
+#myProjects table tr td {
+    border: 1px solid white;
+}
+
+#myProjects a {
+    text-decoration: none;
+    color: #7EA0B7;
+}
+
+#myProjects table tr td:nth-child(even) {
+    width : calc(10vh + 20vw);
+}
+
+#myProjects table tr td:nth-child(odd) {
+    width : calc(5vh + 10vw);
+}
+
+#myProjects #firstImage img{
+    height: calc(7vh + 7vw);
+    width : calc(14vh + 14vw); /* 1903 515 */
+}
+
+#myProjects #secondImage img{
+    height: calc(7vh + 7vw);
+    width : calc(14vh + 14vw); /* 1903 515 */
+}
+
+#myProjects #thirdImage img{
+    height: calc(7vh + 7vw); 
+    width : calc(14vh + 14vw); /* 1259 862 */
+}
+
+#myProjects > h2 { 
+    margin-right: 30vw;
+    margin-left: 30vw;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+    font-size: calc(2vh + 2vw);
+    text-align: center;
+}
+
+#myProjects > h3 { 
+    margin-right: 20vw;
+    margin-left: 25vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0vh;
+    font-size: calc(1vh + 1vw);
+    text-align: center;
+}
