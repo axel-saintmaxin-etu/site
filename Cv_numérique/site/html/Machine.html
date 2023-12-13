@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Le carré de Polybe</title>
+  <link rel="stylesheet" href="../css/Machine/base.css">
+  <link rel="stylesheet" href="../css/Machine/explication.css">
+  <link rel="stylesheet" href="../css/Machine/footer.css">
+  <link rel="stylesheet" href="../css/Machine/galerie.css">
+  <link rel="stylesheet" href="../css/Machine/header.css">
+  <link rel="stylesheet" href="../css/Machine/nav.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"> <img src="../res/Base/Logo.jpg" alt="Logo"> </a>
+        <h1>Le carré de Polybe</h1>
+    </header>
+    <nav>
+        <a href="../index.html">
+            <img src="../res/Base/Logo.jpg" alt="Logo">
+        </a>
+        <a href="./ChronoAttack.html">
+            <p>
+                Remonter
+            </p>
+        </a>
+    </nav>
+    <section id="explication">
+        <p id="unmargin">.</p>
+        <section id="case1">
+            <p id="texte1">
+                Le <a href="#Polybe">Carré de Polybe</a>, ma première "application".
+                Le principe est de faire un chiffrement par substition pour coder un message.
+                Ce chiffrement est évidement d'une qualité "horrible", aucun message sérieux
+                ne sera jamais chiffré avec ce programme.
+            </p>
+        </section>
+        <section id="case2">
+            <p id="texte2">
+                Le principe est de <a href="#coder">donner des messages à coder</a> 
+                (une phrase) ou à <a href="#decoder">décoder</a> (une suite de nombres à 2 chiffres avec
+                chaque chiffre entre 1 et 5 ayant <a href="#choix">25 lettres possible</a> (5x5) et W exclus).
+                On peut changer l'ordre du carré
+                en insérent une clé comme "BONJOUR" (le O n'est compté au'une seul fois)
+                qui change la forme du carré de Polybe. Exemple d'utilisation pour coder
+                un message une fois la clé "BONJOUR" insérer.
+            </p>
+        </section>
+        <section id="case3">
+            <p id="texte3">
+                D'un point de vue éducatif, ce premier travail guidé servait
+                principalement à vérifier si notre niveau algorithmique était
+                suffisant. En groupe de 3, ce projet à mis en avant l'idée que
+                chaque future projet est un travail d'équipe et que chaque personnes
+                peut ammener une solution différentes à un même problème.
+            </p>
+        </section>
+    </section>
+    <section id="galerie">
+        <h2>La galerie d'image</h2>
+        <h3>Cliquez sur une image pour une version de meilleur qualité</h3>
+        <p id="Polybe"> -> Menu de démarrage </p>
+        <a href="../res/Polybe/Menu.png" target="_blank"> <img src="../res/Polybe/Menu.png"> </a>
+        <p id="Choix"> -> Menu de séléction d'option </p>
+        <a href="../res/Polybe/Choix.png" target="_blank"> <img src="../res/Polybe/Choix.png"> </a>
+        <p id="Key"> -> Changement de clé </p>
+        <a href="../res/Polybe/Changer_Cle.png" target="_blank"> <img src="../res/Polybe/Changer_Cle.png"> </a>
+        <p id="coder"> -> Coder un message </p>
+        <a href="../res/Polybe/Coder.png" target="_blank"> <img src="../res/Polybe/Coder.png"> </a>
+        <p id="decoder"> -> Decoder </p>
+        <a href="../res/Polybe/Decoder.png" target="_blank"> <img src="../res/Polybe/Decoder.png"> </a>
+        <p id="quit"> -> Quitter l'application </p>
+        <a href="../res/Polybe/Quitter.png" target="_blank"> <img src="../res/Polybe/Quitter.png"> </a>
+    </section>
+    <footer>
+        <p>Copyright © 2023, Axel Saint-maxin</p>
+    </footer>
+</body>

@@ -1,0 +1,28 @@
+#mySkills {
+    background-color: #1C2942;
+    height: calc(40vh + 25vw);
+
+    color: #5FC2BA;
+    text-align: justify;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mySkills > h2 { 
+    margin-left: calc(-7vh + 44vw);
+    margin-right: 10vw;
+    margin-top: calc(5vh + 5vw);
+    margin-bottom: 0%;
+    font-size: calc(2vh + 2vw);
+    text-align: center;
+}
+
+#mySkills > img {   
+    width: calc(5vh + 5vw);
+    height: calc(5vh + 5vw);
+    margin-right: calc(0vh + 0vw);
+    margin-left: calc(-4vh + 30vw);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
