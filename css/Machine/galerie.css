@@ -9,15 +9,15 @@
 }
 
 #galerie h2{
-    font-size: calc(0.5vh + 3vw);
+    font-size: 3vw;
     margin-top: 0%;
-    margin-left: calc(-1vh + 43vw);
+    margin-left: calc(-5vh + 43vw);
 }
 
 #galerie h3{
-    font-size: calc(0.3vh + 2vw);
+    font-size: 2vw;
     margin-top: 0%;
-    margin-left: calc(-7vh + 34vw);
+    margin-left: calc(-10vh + 20vw);
 }
 
 #galerie a img {
