@@ -1,6 +1,6 @@
 #myProjects {
     background-color: #36494E; /* #1C2942 #36494E */
-    height: calc(50vh + 36vw);
+    height: calc(80vh + 65vw);
 
     color : #7EA0B7;
     text-align: center;
@@ -58,6 +58,21 @@
 #myProjects #thirdImage img{
     height: calc(7vh + 7vw); 
     width : calc(14vh + 14vw); /* 1259 862 */
+}
+
+#myProjects #fourthImage img{
+    height: calc(7vh + 7vw); 
+    width : calc(10vh + 10vw);
+}
+
+#myProjects #fifthImage img{
+    height: calc(7vh + 7vw); 
+    width : calc(10vh + 10vw);
+}
+
+#myProjects #sixthImage img{
+    height: calc(7vh + 7vw); 
+    width : calc(14vh + 14vw);
 }
 
 #myProjects > h2 { 

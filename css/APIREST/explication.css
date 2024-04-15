@@ -1,10 +1,9 @@
 #explication {
     background-image: url("../../res/Background/Montagne.jpg");
     background-size: 100%;
-    height: calc(36vh + 49vw);
+    height: calc(22vh + 30vw);
     color : #5FC2BA;
     text-align: justify;
-    /*background-repeat: no-repeat;*/
 }
 
 #explication #case1 {
@@ -12,7 +11,7 @@
     border: 3px solid #5FC2BA;
     margin-top: 0%;
     margin-left: calc(1vh + 5vw);
-    height: calc(10vh + 11vw);
+    height: calc(7.5vh + 7.5vw);
     width: calc(5vh + 40vw);
     border-radius: 50px;
 }
@@ -22,7 +21,7 @@
     border: 3px solid #5FC2BA;
     margin-top: 0.3%;
     margin-left: calc(0vh + 50vw);
-    height: calc(12vh + 16vw);
+    height: calc(4vh + 8vw);
     width: calc(5vh + 35vw);
     border-radius: 50px;
 }
@@ -32,7 +31,7 @@
     border: 3px solid #5FC2BA;
     margin-top: 0.3%;
     margin-left: calc(1vh + 5vw);
-    height: calc(9vh + 14vw);
+    height: calc(5vh + 10vw);
     width: calc(5vh + 35vw);
     border-radius: 50px;
 }
