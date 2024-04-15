@@ -1,0 +1,44 @@
+body > header {
+    margin: calc(0.8vh + 0.8vw);
+    display: flex;
+    align-items: center;
+    background-color: #1C2942;
+    color: #5FC2BA;
+    border-radius: 25px;
+}
+
+body > header > *{
+    margin : 0;
+}
+
+body > header > img {
+    width: 128px;
+    height: 128px;
+    border-radius: 25px;
+    margin : 16px 30px 16px 30px;
+}
+
+body > header > h1{
+    width: auto;
+    text-align: justify;
+
+    font-size: calc(1.5vw + 1.5vh);
+    margin : 1vh 1vw 1vh calc(-4vh + 28vw);
+    height: calc(2vw + 2vh);
+    color: #5FC2BA;
+
+    /*
+    transition:
+        font-size 1s,
+        margin 1s,
+        height 1s,
+        color 1s;
+        */
+}
+
+body > header > h1:hover{
+    font-size: calc(2vw + 2vh);
+    margin : 1vh 1vw 1vh calc(-4.5vh + 27vw);
+    height: calc(2.5vw + 2.5vh);
+    color: #F27438;
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Dosis';
+    src: url("../../res/Dosis/Dosis-VariableFont_wght.ttf");
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../../res/Background/Paysage_fond.jpg");
+    font-family: 'Dosis';
+    font-size: calc(1vh + 1vw);
+    margin : 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+.space {
+    height: calc(5vh + 5vw);
+}
