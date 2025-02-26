@@ -1,6 +1,6 @@
 #myProjects {
     background-color: #36494E; /* #1C2942 #36494E */
-    height: calc(80vh + 65vw);
+    height: calc(90vh + 75vw);
 
     color : #7EA0B7;
     text-align: center;
@@ -71,6 +71,11 @@
 }
 
 #myProjects #sixthImage img{
+    height: calc(7vh + 7vw); 
+    width : calc(14vh + 14vw);
+}
+
+#myProjects #seventhImage img{
     height: calc(7vh + 7vw); 
     width : calc(14vh + 14vw);
 }

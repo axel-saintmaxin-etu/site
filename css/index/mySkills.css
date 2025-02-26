@@ -1,6 +1,6 @@
 #mySkills {
     background-color: #1C2942;
-    height: calc(40vh + 25vw);
+    height: calc(70vh + 55vw);
 
     color: #5FC2BA;
     text-align: justify;
@@ -25,4 +25,11 @@
     margin-left: calc(-4vh + 30vw);
     margin-top: 0%;
     margin-bottom: 0%;
+}
+
+#mySkills > #explanation {   
+    margin-left: calc(0vh + 10vw);
+    margin-right: 10vw;
+    margin-bottom: 0%;
+    text-align: justify;
 }

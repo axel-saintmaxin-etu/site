@@ -45,9 +45,10 @@
     font-size: calc(0.4vh + 1.2vw);
 }
 
-#explication p a:visited, #explication p a{
-    color: #5FC2BA;
+#explication p a:visited {
+    color: blue;
 }
+
 #explication #unmargin {
     margin : 0%;
 }

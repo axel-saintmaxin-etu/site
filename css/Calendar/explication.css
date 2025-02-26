@@ -1,0 +1,45 @@
+#explication {
+    background-image: url("../../res/Background/Montagne.jpg");
+    background-size: 100%;
+    height: calc(20vh + 30vw);
+    color : #5FC2BA;
+    text-align: justify;
+}
+
+#explication #case1 {
+    background-color: #1C2942;
+    border: 3px solid #5FC2BA;
+    margin-top: 5%;
+    margin-left: calc(1vh + 5vw);
+    height: calc(6vh + 6vw);
+    width: calc(5vh + 40vw);
+    border-radius: 50px;
+}
+
+#explication #case2 {
+    background-color: #1C2942;
+    border: 3px solid #5FC2BA;
+    margin-top: 0.3%;
+    margin-left: calc(0vh + 50vw);
+    height: calc(8vh + 12vw);
+    width: calc(5vh + 35vw);
+    border-radius: 50px;
+}
+
+
+
+
+#explication p {
+    margin-top: calc(1vh + 1vw);
+    margin-left: calc(1vh + 1vw);
+    margin-right: calc(1vh + 1vw);
+    font-size: calc(0.4vh + 1.2vw);
+}
+
+#explication p a:visited {
+    color: blue;
+}
+
+#explication #unmargin {
+    margin : 0%;
+}

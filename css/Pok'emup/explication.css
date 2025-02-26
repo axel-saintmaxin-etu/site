@@ -11,7 +11,7 @@
     border: 3px solid #5FC2BA;
     margin-top: 0%;
     margin-left: calc(1vh + 5vw);
-    height: calc(5.5vh + 5.5vw);
+    height: calc(6vh + 6vw);
     width: calc(5vh + 40vw);
     border-radius: 50px;
 }
@@ -21,7 +21,7 @@
     border: 3px solid #5FC2BA;
     margin-top: 0.3%;
     margin-left: calc(0vh + 50vw);
-    height: calc(6vh + 8vw);
+    height: calc(10vh + 14vw);
     width: calc(5vh + 35vw);
     border-radius: 50px;
 }
@@ -31,7 +31,7 @@
     border: 3px solid #5FC2BA;
     margin-top: 0.3%;
     margin-left: calc(1vh + 5vw);
-    height: calc(6vh + 12vw);
+    height: calc(7vh + 13vw);
     width: calc(5vh + 35vw);
     border-radius: 50px;
 }
@@ -45,8 +45,8 @@
     font-size: calc(0.4vh + 1.2vw);
 }
 
-#explication p a:visited, #explication p a{
-    color: #5FC2BA;
+#explication p a:visited {
+    color: blue;
 }
 
 #explication #unmargin {
